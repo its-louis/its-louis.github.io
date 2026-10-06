@@ -16,12 +16,13 @@ html {
 }
 
 body {
+  body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Noto Serif KR", Georgia, "Times New Roman", serif;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 a {
@@ -99,7 +100,7 @@ a {
   margin: 0;
   font-size: clamp(4rem, 11vw, 10rem);
   font-weight: normal;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.04em;
   line-height: 0.86;
 }
 
@@ -156,7 +157,7 @@ a {
   margin: 0 0 2.5rem;
   font-size: clamp(2.5rem, 5vw, 5rem);
   font-weight: normal;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.02em;
   line-height: 0.95;
 }
 
